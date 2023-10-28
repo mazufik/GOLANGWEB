@@ -1,0 +1,18 @@
+{{define "layout"}}
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Website Product</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="static/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">Header ada disini</div>
+
+    {{template "main" .}}
+
+    <div class="footer">Footer ada disini</div>
+  </body>
+</html>
+{{end}}
